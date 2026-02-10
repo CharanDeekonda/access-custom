@@ -247,3 +247,9 @@ app_license = "mit"
 # List of apps whose translatable strings should be excluded from this app's translations.
 # ignore_translatable_strings_from = []
 
+fixtures = [
+    "Custom Field",
+    "Property Setter",
+    "Client Script"
+]
+app_include_css = "/assets/access_custom/css/style.css"
