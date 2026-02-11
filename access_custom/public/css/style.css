@@ -7,12 +7,13 @@
 /* -----------------------------------------------------------------
    1. CORE VARIABLES (The Green DNA)
    ----------------------------------------------------------------- */
+
 :root {
     /* Brand Colors */
     --primary-color: #00B800 !important;
-    --primary-hover: #009400 !important;
-    --text-color: #060606 !important; /* Dark text from your CSS */
-    --border-color: #dddfe3 !important; /* The subtle grey border from your CSS */
+    --primary-hover: #007A00 !important; /* Changed from #009400 to Dark Access Green */
+    --text-color: #060606 !important; 
+    --border-color: #dddfe3 !important; 
     
     /* ERPNext Overrides */
     --blue-500: #00B800 !important;
@@ -57,8 +58,9 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #060606 !important; /* Turns Black on hover (Like the website!) */
-    border-color: #060606 !important;
+    background-color: var(--primary-hover) !important; /* Turns Dark Access Green */
+    border-color: var(--primary-hover) !important;
+    color: #ffffff !important; /* Keeps text white */
     transform: translateY(-1px); /* Slight lift */
 }
 
@@ -122,34 +124,50 @@ body {
    6. SIDEBAR (Navigation)
    ----------------------------------------------------------------- */
 /* Selected Item */
-/* --- SIDEBAR: SOLID GREEN ACTIVE STATE --- */
 
-/* 1. The Active Item (Background is Green, Text is Black) */
-.sidebar-item-container.selected {
-    background-color: #00B800 !important;      /* Solid Access Green */
-    color: #000000 !important;                  /* Black Text */
-    font-weight: 600 !important;                /* Make text bold */
-    border-radius: 6px !important;              /* Soft corners */
-    box-shadow: 0 2px 5px rgba(0, 184, 0, 0.4); /* Green shadow for depth */
+/* 1️⃣ Target actual sidebar items */
+.desk-sidebar .standard-sidebar-item {
+    border-radius: 8px !important;
+    transition: all 0.2s ease !important;
+}               
+
+/* 2️⃣ HOVER */
+.desk-sidebar .standard-sidebar-item:hover {
+    background-color: #00B800 !important;
 }
 
-/* 2. Force the Icon to be Black (to match text) */
-.sidebar-item-container.selected svg,
-.sidebar-item-container.selected .icon {
-    stroke: #000000 !important;                 /* Icon lines become black */
-    fill: none !important;                      /* Keep inside empty usually */
+.desk-sidebar .standard-sidebar-item:hover .sidebar-item-label,
+.desk-sidebar .standard-sidebar-item:hover span {
+    color: #000000 !important;
+    font-weight: 500 !important;
+}
+
+.desk-sidebar .standard-sidebar-item:hover svg {
+    stroke: #000000 !important;
     color: #000000 !important;
 }
 
-/* 3. Hover Effect (When you just mouse over other items) */
-.sidebar-item-container:hover {
-    background-color: #f0fdf0 !important;       
+/* 3️⃣ ACTIVE ITEM */
+.desk-sidebar .standard-sidebar-item.selected,
+.desk-sidebar .standard-sidebar-item.active {
+    background-color: #00B800 !important;
+    border-left: none !important; /* remove default green line */
+}
+
+/* Active Text */
+.desk-sidebar .standard-sidebar-item.selected .sidebar-item-label,
+.desk-sidebar .standard-sidebar-item.active .sidebar-item-label {
+    color: #000000 !important;
+    font-weight: 600 !important;
+}
+
+/* Active Icon */
+.desk-sidebar .standard-sidebar-item.selected svg,
+.desk-sidebar .standard-sidebar-item.active svg {
+    stroke: #000000 !important;
     color: #000000 !important;
 }
 
-.sidebar-item-container:hover svg {
-    stroke: #00B800 !important;                 /* Icon turns green on hover */
-}
 
 /* --------------------------------------------------------------------- */
 /* --- FIX SEARCH BAR & ICON --- */

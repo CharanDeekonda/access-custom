@@ -1,0 +1,139 @@
+/* =================================================================
+   ACCESS HEALTH - WEBSITE & PORTAL THEME
+   Primary Color: #00B800
+   ================================================================= */
+
+:root {
+    --primary-color: #00B800 !important;
+    --primary-hover: #007A00 !important; /* Dark Access Green for hover */
+    --text-color: #060606 !important;
+    --border-color: #dddfe3 !important;
+    --focus-glow: rgba(0, 184, 0, 0.2) !important;
+}
+
+/* -----------------------------------------------------------------
+   1. LOGIN PAGE & CENTRAL CARDS
+   ----------------------------------------------------------------- */
+body[data-route="login"] {
+    background-color: #f4f6f8 !important; 
+}
+
+.page-card {
+    background: #ffffff !important;
+    border-radius: 8px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08) !important; 
+    border: 1px solid var(--border-color) !important;
+    padding: 30px !important;
+}
+
+.page-card .btn-primary {
+    width: 100% !important;
+    margin-top: 10px !important;
+}
+
+/* -----------------------------------------------------------------
+   2. PUBLIC NAVBAR (Header & Logo)
+   ----------------------------------------------------------------- */
+/* -----------------------------------------------------------------
+   2. PUBLIC NAVBAR (Header & Logo) - ULTIMATE OVERRIDE
+   ----------------------------------------------------------------- */
+/* Force the Navbar to be tall */
+body .web-header .navbar,
+body .navbar {
+    min-height: 80px !important; /* Much taller */
+    height: 80px !important;
+    background-color: #ffffff !important;
+    border-bottom: 1px solid var(--border-color) !important;
+    box-shadow: 0 2px 10px rgba(0,0,0,.08) !important;
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Allow the container holding the logo to expand */
+body .navbar-brand {
+    /* margin-left: 40px !important; */
+    height: 80px !important; 
+    display: flex !important;
+    align-items: center !important;
+}
+
+/* Nuke the default 30px limit on the image */
+body .navbar-brand img, 
+body .navbar-brand .app-logo,
+body .web-header img {
+    height: 50px !important;       /* Huge logo */
+    max-height: 50px !important;   /* Crucial: overwrites the 30px default */
+    width: auto !important;
+    margin-top: 0 !important;
+}
+/* -----------------------------------------------------------------
+   3. BUTTONS (Web Forms & Portal Actions)
+   ----------------------------------------------------------------- */
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color) !important;
+    color: #fff !important;
+    border-radius: 45px !important; 
+    padding: 8px 24px !important;
+    font-weight: 600 !important;
+    transition: all .3s ease !important;
+}
+
+.btn-primary:hover {
+    background-color: var(--primary-hover) !important; /* Dark Green */
+    border-color: var(--primary-hover) !important;
+    color: #ffffff !important;
+    transform: translateY(-1px);
+}
+
+/* -----------------------------------------------------------------
+   4. INPUTS (Web Forms & Login Fields)
+   ----------------------------------------------------------------- */
+.form-control {
+    background-color: #ffffff !important;
+    border: 1px solid #ccc !important;
+    border-radius: 4px !important;
+    color: #060606 !important;
+    min-height: 40px !important;
+    /* Removed the padding override so the icons stop colliding with the text! */
+}
+
+.form-control:focus {
+    border-color: var(--primary-color) !important;
+    box-shadow: 0 0 0 3px var(--focus-glow) !important;
+}
+
+/* -----------------------------------------------------------------
+   5. PORTAL SIDEBAR & CARDS
+   ----------------------------------------------------------------- */
+.web-sidebar {
+    border-right: none !important;
+}
+
+.web-sidebar .list-group-item {
+    border-radius: 8px !important;
+    margin-bottom: 5px !important;
+    border: none !important;
+    transition: all 0.2s ease !important;
+}
+
+.web-sidebar .list-group-item:hover {
+    background-color: rgba(0, 184, 0, 0.1) !important;
+    color: var(--text-color) !important;
+}
+
+.web-sidebar .list-group-item.active {
+    background-color: var(--primary-color) !important;
+    color: #000000 !important;
+    font-weight: 600 !important;
+    box-shadow: 0 2px 6px rgba(0, 184, 0, 0.3) !important;
+}
+
+.web-page-content, .web-form-wrapper {
+    background: #fff !important;
+    border: 1px solid var(--border-color) !important;
+    border-radius: 4px !important;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,.05) !important;
+    padding: 20px !important;
+    margin-top: 20px !important;
+}
