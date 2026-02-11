@@ -143,7 +143,7 @@ body {
 
 /* 3. Hover Effect (When you just mouse over other items) */
 .sidebar-item-container:hover {
-    background-color: #f0fdf0 !important;       /* Very light green tint */
+    background-color: #f0fdf0 !important;       
     color: #000000 !important;
 }
 
