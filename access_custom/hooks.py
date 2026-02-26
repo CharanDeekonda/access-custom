@@ -250,7 +250,8 @@ app_license = "mit"
 fixtures = [
     "Custom Field",
     "Property Setter",
-    "Client Script"
+    "Client Script",
+    "Custom DocPerm"
 ]
 app_include_css = "/assets/access_custom/css/style.css"
 web_include_css = "/assets/access_custom/css/web_style.css"
