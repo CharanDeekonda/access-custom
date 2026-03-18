@@ -251,7 +251,10 @@ fixtures = [
     "Custom Field",
     "Property Setter",
     "Client Script",
-    "Custom DocPerm"
+    "Custom DocPerm",
+    "Website Settings",
+    "Navbar Settings"
 ]
 app_include_css = "/assets/access_custom/css/style.css"
 web_include_css = "/assets/access_custom/css/web_style.css"
+app_logo_url = "/assets/access_custom/images/logo.png"
