@@ -11,7 +11,8 @@
   "start_year",
   "year_of_passing",
   "mode",
-  "class_per"
+  "class_per",
+  "certificate"
  ],
  "fields": [
   {
@@ -63,12 +64,18 @@
    "label": "Grade / Percentage",
    "oldfieldname": "class_per",
    "oldfieldtype": "Data"
+  },
+  {
+   "fieldname": "certificate",
+   "fieldtype": "Attach",
+   "label": "Certificate"
   }
  ],
+ "grid_page_length": 18,
  "idx": 1,
  "istable": 1,
  "links": [],
- "modified": "2026-02-26 11:55:20.414553",
+ "modified": "2026-06-11 12:27:40.894283",
  "modified_by": "Administrator",
  "module": "Access Custom",
  "name": "Employee Education",

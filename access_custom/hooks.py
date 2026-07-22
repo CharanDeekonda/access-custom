@@ -258,3 +258,4 @@ fixtures = [
 app_include_css = "/assets/access_custom/css/style.css"
 web_include_css = "/assets/access_custom/css/web_style.css"
 app_logo_url = "/assets/access_custom/images/logo.png"
+web_include_js = "/assets/access_custom/js/custom_login.js"
