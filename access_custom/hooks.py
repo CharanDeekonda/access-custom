@@ -254,6 +254,7 @@ fixtures = [
     "Client Script",
     "Server Script",
     "Custom DocPerm",
+    {"dt": "DocType", "filters": [["module", "=", "Access Custom"], ["custom", "=", 1]]},
     
     # UI & Global Settings
     "Website Settings",
