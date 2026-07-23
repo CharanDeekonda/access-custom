@@ -248,14 +248,27 @@ app_license = "mit"
 # ignore_translatable_strings_from = []
 
 fixtures = [
+    # Customizations & Scripts
     "Custom Field",
     "Property Setter",
     "Client Script",
+    "Server Script",
     "Custom DocPerm",
+    
+    # UI & Global Settings
     "Website Settings",
-    "Navbar Settings"
+    "Navbar Settings",
+    
+    # Workflows & Rules
+    "Workflow",
+    "Workflow State",
+    "Workflow Action Master",
+    "Document Naming Rule",
+    
+    # Notifications & Email Configuration
+    "Notification",
+    "Email Account"
 ]
 app_include_css = "/assets/access_custom/css/style.css"
 web_include_css = "/assets/access_custom/css/web_style.css"
 app_logo_url = "/assets/access_custom/images/logo.png"
-web_include_js = "/assets/access_custom/js/custom_login.js"

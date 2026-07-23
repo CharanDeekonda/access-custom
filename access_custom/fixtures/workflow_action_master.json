@@ -1,0 +1,233 @@
+[
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-05-14 15:44:47.386883",
+  "name": "Review",
+  "workflow_action_name": "Review"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-11 15:39:13.102115",
+  "name": "Submit to Manager",
+  "workflow_action_name": "Submit to Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-11 15:39:55.660554",
+  "name": "Finalize Appraisal",
+  "workflow_action_name": "Finalize Appraisal"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-17 11:21:35.799861",
+  "name": "Submit to Parallel",
+  "workflow_action_name": "Submit to Parallel"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 12:54:20.593768",
+  "name": "Submit to Team Lead",
+  "workflow_action_name": "Submit to Team Lead"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 13:01:45.223664",
+  "name": "Route Customer Contract",
+  "workflow_action_name": "Route Customer Contract"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 13:02:38.806870",
+  "name": "Route Internal/Supplier",
+  "workflow_action_name": "Route Internal/Supplier"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 13:04:21.723548",
+  "name": "Submit to Finance & HR",
+  "workflow_action_name": "Submit to Finance & HR"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 13:06:14.357863",
+  "name": "All Level 2 Approved",
+  "workflow_action_name": "All Level 2 Approved"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-26 13:50:52.291981",
+  "name": "Reject Objectives",
+  "workflow_action_name": "Reject Objectives"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-26 13:52:19.317956",
+  "name": "Submit Appraisal",
+  "workflow_action_name": "Submit Appraisal"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-26 13:52:43.709257",
+  "name": "Submit Objectives",
+  "workflow_action_name": "Submit Objectives"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-26 13:53:49.613955",
+  "name": "Finalize & Complete",
+  "workflow_action_name": "Finalize & Complete"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-07-19 22:36:32.153327",
+  "name": "Submit to Dept Manager",
+  "workflow_action_name": "Submit to Dept Manager"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-07-19 22:38:22.161989",
+  "name": "Dept Manager Approve",
+  "workflow_action_name": "Dept Manager Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-07-19 22:38:32.253592",
+  "name": "Dept Manager Reject",
+  "workflow_action_name": "Dept Manager Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-07-19 22:38:44.917310",
+  "name": "HR Approve",
+  "workflow_action_name": "HR Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-07-19 22:38:55.076275",
+  "name": "HR Reject",
+  "workflow_action_name": "HR Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-07-19 22:39:07.737264",
+  "name": "Finance Approve",
+  "workflow_action_name": "Finance Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-07-19 22:39:17.080272",
+  "name": "Finance Reject",
+  "workflow_action_name": "Finance Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-07-19 22:39:29.338333",
+  "name": "Director Finalize",
+  "workflow_action_name": "Director Finalize"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 12:56:58.465908",
+  "name": "Reject Team Lead",
+  "workflow_action_name": "Reject Team Lead"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 13:04:10.479833",
+  "name": "Submit to Fin, HR & Legal",
+  "workflow_action_name": "Submit to Fin, HR & Legal"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 13:07:17.016854",
+  "name": "Final Approve & Issue",
+  "workflow_action_name": "Final Approve & Issue"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-26 13:50:09.809414",
+  "name": "Approve Objectives",
+  "workflow_action_name": "Approve Objectives"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-26 13:51:45.335677",
+  "name": "Resubmit Objectives",
+  "workflow_action_name": "Resubmit Objectives"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-07-19 22:39:40.513546",
+  "name": "Director Reject",
+  "workflow_action_name": "Director Reject"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-05-27 17:42:00.800386",
+  "name": "Submit for Approval",
+  "workflow_action_name": "Submit for Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 12:56:15.583204",
+  "name": "Approve Team Lead",
+  "workflow_action_name": "Approve Team Lead"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-18 14:39:06.922975",
+  "name": "System Update",
+  "workflow_action_name": "System Update"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-06-16 11:02:08.514314",
+  "name": "Final Approval",
+  "workflow_action_name": "Final Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-05-14 15:44:47.383050",
+  "name": "Approve",
+  "workflow_action_name": "Approve"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow Action Master",
+  "modified": "2026-05-14 15:44:47.385335",
+  "name": "Reject",
+  "workflow_action_name": "Reject"
+ }
+]
