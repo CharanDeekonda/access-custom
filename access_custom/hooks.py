@@ -266,8 +266,7 @@ fixtures = [
     "Document Naming Rule",
     
     # Notifications & Email Configuration
-    "Notification",
-    "Email Account"
+    "Notification"
 ]
 app_include_css = "/assets/access_custom/css/style.css"
 web_include_css = "/assets/access_custom/css/web_style.css"
