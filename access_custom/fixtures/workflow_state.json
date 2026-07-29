@@ -192,15 +192,6 @@
   "docstatus": 0,
   "doctype": "Workflow State",
   "icon": "",
-  "modified": "2026-06-26 13:48:03.689331",
-  "name": "Objective Review Pending",
-  "style": "",
-  "workflow_state_name": "Objective Review Pending"
- },
- {
-  "docstatus": 0,
-  "doctype": "Workflow State",
-  "icon": "",
   "modified": "2026-06-17 11:17:29.203722",
   "name": "Issued",
   "style": "",
@@ -223,6 +214,15 @@
   "name": "Pending CEO Approval",
   "style": "",
   "workflow_state_name": "Pending CEO Approval"
+ },
+ {
+  "docstatus": 0,
+  "doctype": "Workflow State",
+  "icon": "",
+  "modified": "2026-06-26 13:48:03.689331",
+  "name": "Objective Review Pending",
+  "style": "",
+  "workflow_state_name": "Objective Review Pending"
  },
  {
   "docstatus": 0,
