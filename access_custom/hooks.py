@@ -253,6 +253,9 @@ fixtures = [
     "Property Setter",
     "Client Script",
     "Server Script",
+    "Workspace",
+    "Number Card",
+    "Dashboard Chart",
     "Custom DocPerm",
     {"dt": "DocType", "filters": [["module", "=", "Access Custom"], ["custom", "=", 1]]},
     
